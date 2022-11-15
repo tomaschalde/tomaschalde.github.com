@@ -74,7 +74,17 @@ a{ /*Cambio el color de los links*/
 
 
 /*Shortand Properties permiten especificar el valor de multiples propeidades en una sola declaracion*/
-.title-item {
+.title-item { /*Hago estos cambios en cada pagina de los estadios*/
   border-bottom: solid 2px #C6426E; /*Asigno en una misma linea solidez tamaño y color*/
   padding-bottom: 1em;
+
+  /*Configurar un padding con shortand properties es
+    padding: 1px/em(arriba) 2px/em(derecha) 3px/em(abajo) 4px/em(izquierda)
+  */
+
+  /*Configurar los bordes redondeado con shortand properties es
+    border-radius: 10px/em
+  */
+
+  
 }
