@@ -74,7 +74,7 @@ a{ /*Cambio el color de los links*/
 
 
 /*Shortand Properties permiten especificar el valor de multiples propeidades en una sola declaracion*/
-.title {
-  border-bottom: solid 2px #C6426E /*Asigno en una misma linea solidez tamaño y color*/
+.title-item {
+  border-bottom: solid 2px #C6426E; /*Asigno en una misma linea solidez tamaño y color*/
   padding-bottom: 1em;
 }
