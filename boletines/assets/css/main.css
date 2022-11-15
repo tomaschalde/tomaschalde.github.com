@@ -69,5 +69,5 @@ a{ /*Cambio el color de los links*/
 
 /*CAMBIO EL COLOR DE LAS ESTRELLAS*/
 .fa-solid, .fa-star {
-  color: #ffc400;
+  color: red;
 }
