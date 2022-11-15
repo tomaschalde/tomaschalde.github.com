@@ -88,15 +88,16 @@ a{ /*Cambio el color de los links*/
   */
   }
 
- .actions{
-   position: absolute; /*Ahora las medidas que pongamos seran relativas al contenedor (que ya esta marcado como posicionado)*/
+  .actions{
 
+   position: absolute; /*Ahora las medidas que pongamos seran relativas al contenedor (que ya esta marcado como posicionado)*/
   /*Mando la X a la esquina superior derecha*/
    top:1em;
    right:1em;
  }
 
  .close{/*Configuramos la X*/
+
    height: 40px;
    width: 40px;
    color: white;
@@ -110,4 +111,6 @@ a{ /*Cambio el color de los links*/
    display: flex;
    align-items: center;
    justify-content: center;
+
+   text-decoration: none;
  }
