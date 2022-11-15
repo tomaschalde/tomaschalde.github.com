@@ -116,4 +116,35 @@ a{ /*Cambio el color de los links*/
  }
 
 
-/*ANIMACIONES*/
+/*PSEUDOCLASES*/
+a:hover{ /*Esta pseudoclase cambia de opacidad por todos los links por donde paso el mouse*/
+  opacity: 0.5;
+}
+
+/*DETALLES FINALES DE ESTILO (Los cambios en content,title y position debo hacerlo en los que se encuentran mas arriba)*/
+.content{
+  padding:1.8em /*Genero espacios en blancos del contenido con el contenedor, no queda todo pegado a la "caja"*/
+
+}
+
+.title{
+  text-align: center; /*Pongo el titulo en el medio*/
+}
+
+.position{
+  margin-right: 0.5em; /*Genero un espacio entre el nombre del estadio y el resto de las coasas*/
+
+}
+
+.address{ /*Modifico el estilo de la ubicacion del estadio */
+  font-weight: bold; /*Pongo las letras de la ubicacion mas gruesas*/
+  color: #642B73;
+  font-size: 1.2em;
+}
+
+.main-image{ /*acomodo la imagenn en una posicion correcta*/
+
+  float: left; /*El texto va a fluir hacia la derecha de la imagen*/
+  margin-right: 1em; /*Separa el texto de la imagen*/
+  height: 250px; /*Acomod altura de la imagen*/
+}
