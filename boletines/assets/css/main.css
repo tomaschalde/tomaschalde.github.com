@@ -5,7 +5,6 @@ Morado: #642B73
 Negro: #999
 Gris: #f5f5f5
 */
-
 .container { /*Agrego el fondo a toda la pagina por eso lo hago en el div container que es el que contiene todo */
 
   background: #642B73; /*Este background es un auxilio en caso de que un dispositivo no pueda mostrar el degradado correctamente*/
@@ -31,9 +30,7 @@ Gris: #f5f5f5
 }
 
 html{ /*Pongo esa letra en todo el sitio web*/
-
   font-family: 'Nunito', sans-serif;
-
 }
 
 td {
