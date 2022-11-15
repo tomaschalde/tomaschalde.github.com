@@ -68,6 +68,6 @@ a{ /*Cambio el color de los links*/
 .table tr:nth-child(even){background-color: #f3e5f5} /*nth-child es una pseudoclase que en este caso actua sobre todos los tr pares y les cambia el color del fondo*/
 
 /*CAMBIO EL COLOR DE LAS ESTRELLAS*/
-.fa-solid fa-star {
+.fa-star {
   color: red;
 }
