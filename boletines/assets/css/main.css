@@ -71,3 +71,10 @@ a{ /*Cambio el color de los links*/
 .fa-solid,.fa-regular {
   color: #ffc400;
 }
+
+
+/*Shortand Properties permiten especificar el valor de multiples propeidades en una sola declaracion*/
+.title {
+  border-bottom: solid 2px #C6426E /*Asigno en una misma linea solidez tamaño y color*/
+  padding-bottom: 1em;
+}
