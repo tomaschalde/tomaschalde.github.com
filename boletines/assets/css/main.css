@@ -33,6 +33,19 @@ html{ /*Pongo esa letra en todo el sitio web*/
   font-family: 'Nunito', sans-serif;
 }
 
+.title { /*Quiero que todos los titulos aparezcan en mayuscula*/
+  text-transform: uppercase;
+}
+
+.paragraph { /*Quiero cambiar la altura de la linea de los parrafos de esta clase (el espaciado entre lineas sera mas alto) y que la fuente se mas delgada*/
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+a{ /*Cambio el color de los links*/
+  color: #d500f9;
+}
+
 td {
   border:solid 1px;
   text-align: center;
