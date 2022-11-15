@@ -14,7 +14,7 @@ Gris: #f5f5f5
   background: linear-gradient(to right,#C6426E , #642B73);
 
   height: 100vh; /*La caja ocupa todo el alto de la pagina*/
-  width: 100vw; /**La caja ocupa todo el ancho de la pagina/
+  width: 100vw; /*La caja ocupa todo el ancho de la pagina*/
 
   /*Ubicamos contenido en el centro*/
   display: flex;
