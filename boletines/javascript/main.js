@@ -13,8 +13,8 @@ let variableContainer = document.querySelector(".container"); //devuelve el prim
 let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con todos los links que encuentre (ya que puede haber 1 o mas links)
 
 //Recorrer un arreglo e imprimer en consola cada link que se encuentra en el arreglo
- links.forEach(function(link){
-   console.log(link)
+ links.forEach(function(a){
+   console.log(a)
  })
 
  //EVENTOS
@@ -34,8 +34,8 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
  let links = document.querySelectorAll(".close");
 
  //Recorrerlos y agregar el evento
- links.forEach(function(link){
-   link.addEventListener('click',function(){
+ links.forEach(function(a){
+   a.addEventListener('click',function(){
      console.log("Click");
    })
  })
@@ -46,6 +46,6 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
 
  let iconos = document.querySelectorAll("i");
 
- iconos.forEach(function(icono) {
-   icono.classList.remove("fa-solid fa-star");
+ i.forEach(function(i) {
+   i.classList.remove("fa-star");
  })
