@@ -15,7 +15,7 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
 //Recorrer un arreglo e imprimer en consola cada link que se encuentra en el arreglo
  links.forEach(function(a){
    console.log(a)
- })
+ });
 
  //EVENTOS
 
@@ -26,7 +26,7 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
    td.addEventListener('click',function(){
      console.log("Click");
    })
- })
+ });
 
  //HACER QUE LOS ELEMENTOS .CLOSE (X DE LAS PAGINAS DE LOS ESTADIOS) REALICEN UN EVENTO AL HACERLES CLICK
 
@@ -38,7 +38,7 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
    a.addEventListener('click',function(){
      console.log("Click");
    })
- })
+ });
 
  //QUITAR Y AGREGAR CLASES A UN ELEMENTO CON javascript
 
@@ -48,4 +48,12 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
 
  i.forEach(function(i) {
    i.classList.remove("fa-star");
- })
+ });
+
+
+//TIMERS TENEMOS setTimeout(permite ejecutar ciertas instrucciones despues de cierto tiempo lo hace una sola ves)
+//setInterval lo hace despues de cierto tiempo constantemente
+
+setTimeout(function () { //PASA A LA PAGINA PRINCIPAL DESPUES DE 1 SEGUNDO
+  location.href= "/";
+},1000);
