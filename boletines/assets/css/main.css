@@ -23,13 +23,20 @@ Gris: #f5f5f5
 
 .content { /*Posicionamos el contenido*/
   max-width: 960px;
-  max-height: 500px;
   width: 100%;
-  height: 100%;
+  height: 80%
   background-color: white;
   position: relative; /*Ahora es un elemento posicionado*/
+
+  /*Puedo moverme hacia arriba y abajo pero no hacia los costados*/
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
+
+img{
+  max-width: 100%;
+}
 
 /*FUENTES PERSONALIZADAS*/
 html{ /*Pongo esa letra en todo el sitio web*/
@@ -132,6 +139,10 @@ a:hover{ /*Esta pseudoclase cambia de opacidad por todos los links por donde pas
 }
 
 .position{
+  background-color: #C6426E;
+  color:white;
+  padding: 0.5em;
+  border-radius: 4px;
   margin-right: 0.5em; /*Genero un espacio entre el nombre del estadio y el resto de las coasas*/
 
 }
@@ -140,6 +151,8 @@ a:hover{ /*Esta pseudoclase cambia de opacidad por todos los links por donde pas
   font-weight: bold; /*Pongo las letras de la ubicacion mas gruesas*/
   color: #642B73;
   font-size: 1.2em;
+  margin-top: 1em;
+  display: inline-block;
 }
 
 .main-image{ /*acomodo la imagenn en una posicion correcta*/
@@ -148,3 +161,34 @@ a:hover{ /*Esta pseudoclase cambia de opacidad por todos los links por donde pas
   margin-right: 1em; /*Separa el texto de la imagen*/
   height: 250px; /*Acomod altura de la imagen*/
 }
+
+/*MEDIA QUERIE*/
+media (min-height:550px){ /*Para pantallas que tengan un alto minimo de 550px, su altura va a ser de 500px y reacomoda la tabla con ciertos valroes nuevos*/
+
+  .content{
+    height: 500px;
+  }
+
+  td{
+    display:block;
+    width: 100%;
+  }
+
+  td:nth-of-type(1){ /*Pseudoclase, cambia la fuente de los numeros y los pone mas en negrita*/
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  th{
+    display: none;
+  }
+}
+
+media (max-width:600px){ /*Para pantallas que tengan un ancho maximo de 600px, reducimos el padding a 1em*/
+  .content: {
+    1em;
+  }
+}
+
+
+/*MOBILE FIRST*/
