@@ -47,5 +47,5 @@ let links = document.querySelectorAll("a"); // Arma una lista (o arreglo) con to
  let iconos = document.querySelectorAll("i");
 
  iconos.forEach(function(icono) {
-   icono.classList.remove("fa-star");
+   icono.classList.remove("fa-solid");
  })
